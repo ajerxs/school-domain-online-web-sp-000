@@ -13,6 +13,6 @@ attr_reader :school
   def add_student(student, grade)
     school[:grade] = []
     school[:grade] << student
-    
+
 
 end
