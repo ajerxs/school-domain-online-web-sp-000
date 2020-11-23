@@ -1,14 +1,15 @@
 # code here!
 class School
-attr_reader :name
+attr_reader :school
 
-  def initialize(name)
-    @name = name
+  def initialize(school)
+    @school = school
   end
 
   def roster
     roster = {}
   end
 
+  def add_student()
 
 end
