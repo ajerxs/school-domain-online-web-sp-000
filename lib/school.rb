@@ -11,7 +11,7 @@ class School
     roster = {}
   end
 
-  def add_student(student,grade)
+  def add_student(student, grade)
     if roster[grade]
       roster[grade] << student
     else
