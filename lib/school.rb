@@ -11,8 +11,8 @@ attr_reader :school
   end
 
   def add_student(student, grade)
-    school["#{grade}"] = []
-    school["#{grade}"] << "#{student}"
+    roster[grade] = []
+    roster[grade] << student
   end
 
 end
