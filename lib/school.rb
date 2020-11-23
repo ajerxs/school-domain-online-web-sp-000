@@ -6,7 +6,9 @@ attr_reader :name
     @name = name
   end
 
-roster = {}
+  def roster
+    roster = {}
+  end
 
 
 end
