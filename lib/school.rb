@@ -7,6 +7,6 @@ attr_reader :name
   end
 
 roster = {}
-    
+
 
 end
